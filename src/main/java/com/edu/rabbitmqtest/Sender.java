@@ -13,6 +13,6 @@ public class Sender {
     void send(String msg){
         //param1:name of the queue
         //param2:message
-        amqpTemplate.convertAndSend("que1",msg);
+        amqpTemplate.convertAndSend("myfirstque",msg);
     }
 }
